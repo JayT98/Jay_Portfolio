@@ -1,0 +1,64 @@
+@media (max-width: 1250px){
+    header #menu-btn{
+        display: block;
+    } 
+
+    .header .navbar{
+        width: 400px;
+        position: absolute;
+        right: 0; 
+        top:100%;
+        padding: 0 32px;
+        background: #fbf0df;
+        border: 2px solid #ffb10a;
+        transition: 0.2s linear;
+        transform: translateX(100%);
+        height: calc(100vh - 96px);
+        overflow-y: auto;
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    }
+
+    .header .navbar.active{
+        transform: translateX(0);
+    }
+
+    .header .navbar a{
+        display: block;
+        color: #000000;
+        padding: 24px 0;
+        margin: 16px 0;
+    }
+
+    .navbar::-webkit-scrollbar{
+        width: 13px;
+    }
+
+    .navbar::-webkit-scrollbar-thumb{
+        border-radius: 16px;
+        background-color: #ffb10a;
+    } 
+    .navbar::-webkit-scrollbar-track{
+        background: transparent;
+    }
+
+    section, header{
+        padding: 32px;
+    }
+
+}
+
+@media (max-width: 991px){
+    html{
+        font-size: 55%;
+    }
+}
+
+@media (max-width: 450px){
+    html{
+        font-size: 50%;
+    }
+
+    section, header{
+        padding: 16px;
+    }
+}

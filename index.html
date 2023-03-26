@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/vendors/font-awesome/css/all.min.css">
+    <link rel="stylesheet" href="./assets/vendors/swiper/swiper.css">
+    <link rel="stylesheet" href="./assets/vendors/magnific-popup/magnific-popup.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <script src="assets/vendors/jquery/jquery-3.6.0.js"></script>
+    <title>Jay | Personal Portfolio</title>
+</head>
+
+<body>
+    <a href="#home" class="scroll-top">
+        <i class="fas fa-angle-up"></i>
+    </a>
+
+    <header class="header">
+        <a class="logo" href="#home">
+            <h2>Jay</h2>
+        </a>
+        <nav class="navbar">
+            <a href="#home">home</a>
+            <a href="#about">about</a>
+            <a href="#service">service</a>
+            <a href="#portfolio">portfolio</a>
+            <a href="#testimonial">testmonials</a>
+            <a href="#blog">blogs</a>
+            <a href="#contact">contact</a>
+        </nav>
+
+        <div class="fas fa-bars" id="menu-btn"></div>
+    </header>
+
+    <section class="home" id="home">
+        <div class="box-container">
+            <div class="content">
+                <div class="text">
+                    <h2>hi there!</h1>
+                        <h1>I am a <span class="typing-text"></span></h1>
+                        <p>Creative web developer offering 1+ years of experience providing high-impact web solutions for many different organizations.</p>
+                        <a href="#about" class="btn">about me <i class="fas fa-user"></i></a>
+                </div>
+            </div>
+            <script src="assets/vendors/typed/typed.js"></script>
+            <script>
+                var typed = new Typed('.typing-text', {
+                    strings: ['Web developer', 'Full Stack Developer', 'Software Engineering'],
+                    typeSpeed: 100,
+                    loop: true
+                });
+            </script>
+            <div class="image">
+                <img src="assets/images/avatar.jpg" alt="Home-Image">
+            </div>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="box-container">
+            <div class="image">
+                <img src="assets/images/avatar.jpg" alt="About-image">
+            </div>
+
+            <div class="content">
+                <h2>My name is Jay</h2>
+                <p>I graduated with the Bachelor of Computer Science, majors in Software Developer in December 2022 from Swinburne University of Technology, Melbourne. 
+                    I specialize in <span style="color: rgb(235, 220, 134);">HTML, CSS, JAVASCRIPT, PHP, NODE.JS</span> and many framework to build the Web such as  <span style="color: rgb(235, 220, 134);">React/Laravel/Angular</span>, 
+                    and have developed a range of applications and software solutions in BENIT company. 
+                    My passion for programming and problem-solving has led me to continuously explore new technologies and stay up-to-date with the latest industry trends. 
+                    I am excited to collaborate and contribute my skills to any project or team that values creativity, innovation, and quality software development."
+                </p>
+                <div class="about-info">
+                    <div class="info">
+                        <h4>age: <span>24</span></h4>
+                        <h4>gender: <span>male</span></h4>
+                        <h4>language: <span>Vietnamese, english</span></h4>
+                        <h4>work: <span>Full stack developer</span></h4>
+                        <a href="./assets/documents/Jay_SoftwareEngineer.pdf" target="_blank" class="btn">download CV<i class="fas fa-download"></i></a>
+                    </div>
+
+                    <div class="counting">
+
+                        <div class="box">
+                            <h1 class="count" data-count="1">1+</h1>
+                            <h3>years of experience</h3>
+                        </div>
+
+                        <div class="box">
+                            <h1 class="count" data-count="10">10+</h1>
+                            <h3>projects completed</h3>
+                        </div>
+
+                        <div class="box">
+                            <h1 class="count" data-count="90">90+</h1>
+                            <h3>happy clients</h3>
+                        </div>
+
+                        <div class="box">
+                            <h1 class="count" data-count="3">3+</h1>
+                            <h3>awards won</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="skill-container">
+            <div class="heading">
+                <h2>my <span>skills</span></h2>
+            </div>
+
+            <div class="skills">
+                <div class="skill-item item1">
+                    <div class="box">
+                        <h3>HTML5<span> 95% </span> </h3>
+                        <div class="progress-bar"> <span></span> </div>
+                    </div>
+                    <div class="box">
+                        <h3>CSS3<span> 90% </span> </h3>
+                        <div class="progress-bar"> <span></span> </div>
+                    </div>
+                    <div class="box">
+                        <h3>javascript<span> 75% </span> </h3>
+                        <div class="progress-bar"> <span></span> </div>
+                    </div>
+                </div>
+
+                <div class="skill-item item2">
+                    <div class="box">
+                        <h3>JQuery<span> 55% </span> </h3>
+                        <div class="progress-bar"> <span></span> </div>
+                    </div>
+                    <div class="box">
+                        <h3>Bootstrap<span>50% </span> </h3>
+                        <div class="progress-bar"> <span></span> </div>
+                    </div>
+                    <div class="box">
+                        <h3>PHP<span> 60% </span> </h3>
+                        <div class="progress-bar"> <span></span> </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="qualification">
+        <div class="heading">
+            <h2>My <span>Qualification</span></h2>
+        </div>
+
+        <div class="box-container">
+            <div class="education">
+                <div class="experience-item">
+                    <i class="fas fa-graduation-cap"></i>
+                    <div class="content">
+                        <span>2018 - 2019</span>
+                        <h3>Diploma of Information Technology</h3>
+                        <p>Melbourne, Vic, Australia</p>
+                    </div>
+                </div>
+
+                <div class="experience-item">
+                    <i class="fas fa-graduation-cap"></i>
+                    <div class="content">
+                        <span>2019 - 2022</span>
+                        <h3>Bachelor of Computer Science</h3>
+                        <p>Melbourne, Vic, Australia</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="experience">
+
+                <div class="experience-item">
+                    <i class="fas fa-briefcase"></i>
+                    <div class="content">
+                        <span>iMove Australia (2022)</span>
+                        <h3>Designer/ Full Stack Developer</h3>
+                        <p>I worked as a Designer and Full Stack Developer, 
+                            and I created the design and prototype for my website team. 
+                            I also made a plan and joined to develop my team's process about front-end and back-end by using next.js 
+                            combined with GTFS data to visualize the public transport service simulation in Melbourne.</p>
+                    </div>
+                </div>
+
+                <div class="experience-item">
+                    <i class="fas fa-briefcase"></i>
+                    <div class="content">
+                        <span>BENIT (2022 - Present)</span>
+                        <h3>Software Engineer</h3>
+                        <p>At BENIT company, I have the opportunity to practice what I have learned at University through some commercial projects. 
+                            I also learned critical software development skills, 
+                            such as AWS knowledge and back-end technical,
+                            and gained more understanding to grow in this industry. </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="service" id="service">
+        <div class="heading">
+            <h2>My <span>Services</span></h2>
+        </div>
+
+        <div class="box-container">
+            <div class="service-item">
+                <i class="fas fa-code"></i>
+                <h3>web developer</h3>
+                <p>I can work as full-stack developer to develop web product.</p>
+            </div>
+
+            <div class="service-item">
+                <i class="fas fa-bullhorn"></i>
+                <h3>Laptop/Phone Repair</h3>
+                <p>I have experience in fixing laptops and installing tools for MAC and Windows.</p>
+            </div>
+
+            <div class="service-item">
+                <i class="fas fa-search-dollar"></i>
+                <h3>IT Support</h3>
+                <p>I can support the customer in troubleshooting their problem when using the company's tools and setup employee environment tools to work.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="portfolio" id="portfolio">
+        <div class="heading">
+            <h2>My <span>Portfolio</span></h2>
+        </div>
+
+        <div class="gallery">
+            <ul class="controls">
+                <li class="button btn active" data-filter="all">all</li>
+                <li class="button btn" data-filter="web">web development</li>
+                <li class="button btn" data-filter="design">Laptop/Phone Repair</li>
+                <li class="button btn" data-filter="photography">IT Support</li>
+            </ul>
+            <div class="box-container">
+                <div class="portfolio-item image web">
+                    <img src="./assets/images/portfolio_1.png" alt="Portfolio-Image" />
+                    <div class="content">
+                        <h4>web development</h4>
+                        <p>category</p>
+                        <a data-effect="mfp-newspaper" href="./assets/images/portfolio_1.png" class="view-btn"><i class="fas fa-search-plus"></i></a>
+                    </div>
+                </div>
+
+                <div class="portfolio-item image web">
+                    <img src="./assets/images/portfolio_3.png" alt="Portfolio-Image" />
+                    <div class="content">
+                        <h4>web development</h4>
+                        <p>category</p>
+                        <a data-effect="mfp-newspaper" href="./assets/images/portfolio_3.png" class="view-btn"><i class="fas fa-search-plus"></i></a>
+                    </div>
+                </div>
+
+                <div class="portfolio-item image photography">
+                    <img src="./assets/images/IT-Support.jpg" alt="Portfolio-Image" />
+                    <div class="content">
+                        <h4>IT Support</h4>
+                        <p>category</p>
+                        <a data-effect="mfp-newspaper" href="./assets/images/IT-Support.jpg" class="view-btn"><i class="fas fa-search-plus"></i></a>
+                    </div>
+                </div>
+
+                <div class="portfolio-item image design">
+                    <img src="./assets/images/portfolio_2.jpeg" alt="Portfolio-Image" />
+                    <div class="content">
+                        <h4>Laptop/Phone Repair</h4>
+                        <p>category</p>
+                        <a data-effect="mfp-newspaper" href="./assets/images/portfolio_2.jpeg" class="view-btn"><i class="fas fa-search-plus"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonial" id="testimonial">
+        <div class="heading">
+            <h2><span>testimonials</span></h2>
+        </div>
+
+        <div class="swiper-container testimonial-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide testi-item">
+                    <img src="assets/images/Testimonials/hieu_mai.jpeg" alt="Testimonial-Pic" />
+                    <i class="fas fa-quote-left"></i>
+                    <p class="comment">
+                        Good habit working attitude, proactive and enthusiasm.
+                    </p>
+                    <div class="intro">
+                        <h3>Hieu Mai</h3>
+                        <h5>CEO of BENIT</h5>
+                    </div>
+                </div>
+
+                <div class="swiper-slide testi-item">
+                    <img src="assets/images/Testimonials/pic-1.png" alt="Testimonial-Pic" />
+                    <i class="fas fa-quote-left"></i>
+                    <p class="comment">
+                        I have been using the software for a few weeks now, and I must say that it has exceeded my expectations. It is user-friendly, easy to navigate, and the features are exactly what I needed.
+                    </p>
+                    <div class="intro">
+                        <h3>jason roy</h3>
+                        <h5>web developer</h5>
+                    </div>
+                </div>
+
+                <div class="swiper-slide testi-item">
+                    <img src="assets/images/Testimonials/julie_duong.jpeg" alt="Testimonial-Pic" />
+                    <i class="fas fa-quote-left"></i>
+                    <p class="comment">
+                        The software developer did an excellent job in ensuring that the software is bug-free and stable. I have been using it for a while now, and I have not encountered any issues or crashes.
+                    </p>
+                    <div class="intro">
+                        <h3>Julie Duong</h3>
+                        <h5>Accountant</h5>
+                    </div>
+                </div>
+
+            <div class="swiper-pagination swiper-pagination1"></div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="heading">
+            <h2><span>Contact</span> Me</h2>
+        </div>
+
+        <div class="box-container">
+            <div class="contact-info">
+                <h3>get in touch</h3>
+                <p>For more information about me, 
+                    please drop me a line and contact me at the social media links or my phone number.</p>
+                <div class="info-item">
+                    <h4>Phone:</h4>
+                    <div class="detail">
+                        <div class="fas fa-phone"></div>
+                        <p>+61 414 059 866</p>
+                    </div>
+                </div>
+
+                <div class="info-item">
+                    <h4>email:</h4>
+                    <div class="detail">
+                        <div class="fas fa-envelope"></div>
+                        <p class="gmail">kientrung2509@gmail.com</p>
+                    </div>
+                </div>
+
+                <div class="info-item">
+                    <h4>linkedin:</h4>
+                    <div class="detail">
+                        <div class="fab fa-linkedin"></div>
+                        <p class="linkedin"><a style="color: #cdcdcd;" href="https://www.linkedin.com/in/trung-nguyen-0ba0a7192/">https://www.linkedin.com</a></p>
+                    </div>
+                </div>
+
+                <div class="info-item">
+                    <h4>github:</h4>
+                    <div class="detail">
+                        <div class="fab fa-github"></div>
+                        <p class="github"><a style="color: #cdcdcd;" href="https://github.com/JayT98">https://github.com/</a></p>
+                    </div>
+                </div>
+            </div>
+
+            <form method="post" class="contact-form" id="contactUs-Form" action="mailto:kientrung2509@gmail.com" enctype="text/plain">
+                <input type="text" name="name" class="box" id="name" placeholder="name" required />
+                <input type="email" name="email" class="box" id="email" placeholder="email" required />
+                <input type="text" name="subject" class="box" id="subject" placeholder="subject" required />
+                <textarea cols="30" rows="10" name="comment" id="comment" class="box" placeholder="message"></textarea>
+                <button type="submit" class="btn" name="submit" id="submit">send message</button>
+
+                <span class="alert" id="msg"></span>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="social">
+            <a href="https://www.facebook.com/kientrung.nguyenhoai" class="fab fa-facebook-f"></a>
+            <a href="https://www.linkedin.com/in/trung-nguyen-0ba0a7192/" class="fab fa-linkedin-in"></a>
+        </div>
+
+        <div class="content">
+            <p>created by <span>Jay</span></p>
+        </div>
+    </footer>
+
+    <script src="./assets/vendors/swiper/swiper.js"></script>
+    <script src="assets/vendors/magnific-popup/jquery.magnific-popup.js"></script>
+
+    <script src="./assets/js/script.js"></script>
+    <script src="./assets/js/scroll-spy.js"></script>
+    <script src="assets/js/counter-up.js"></script>
+    <script src="assets/js/portfolio.js"></script>
+    <script src="assets/js/testi-slider.js"></script>
+    <script src="assets/js/blog-slider.js"></script>
+</body>
+
+</html>
