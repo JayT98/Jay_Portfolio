@@ -670,7 +670,6 @@ header .fa-times{
     border: 2px solid var(--gray);
     border-radius: 8px;
     padding: 64px 32px;
-    height: 78vh;
 }
 
 .testi-item:hover{
