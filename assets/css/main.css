@@ -663,13 +663,16 @@ header .fa-times{
     position: relative;
     padding-bottom: 64px;
     overflow: hidden;
+    height: 850px;
 }
+
 
 .testi-item{
     text-align: center;
     border: 2px solid var(--gray);
     border-radius: 8px;
     padding: 64px 32px;
+    height: 100%;
 }
 
 .testi-item:hover{
