@@ -8,7 +8,7 @@ $(document).ready(function(){
         countNum: countTo
       },
       {
-        duration: 3000,
+        duration: 6000,
         step: function() {
           $this.text(Math.floor(this.countNum));
         },
